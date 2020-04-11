@@ -1,0 +1,2 @@
+include ':app', ':calendarLibrary'
+rootProject.name='Test Client Register'

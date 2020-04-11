@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.applandeo.materialcalendarview.CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:abbreviationsBarColor="#303F9F"
+        app:abbreviationsLabelsColor="@android:color/white"
+        app:anotherMonthsDaysLabelsColor="#3F51B5"
+        app:daysLabelsColor="@android:color/white"
+        app:eventsEnabled="false"
+        app:headerColor="#1A237E"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:pagesColor="#3F51B5"
+        app:selectionColor="@android:color/white"
+        app:selectionLabelColor="#3F51B5"
+        app:todayLabelColor="#AEEA00"
+        app:type="many_days_picker" />
+</LinearLayout>
